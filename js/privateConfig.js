@@ -135,9 +135,15 @@ const privateOptions = {
             minLat: '34.89662210',
         }
     },
-
-
-
+    // 高源
+    'gaoyuan':{
+        coord:{
+            maxLon: '119.75071505',
+            minLon: '119.74847138',
+            maxLat: '36.42946845',
+            minLat: '36.42650536',
+        }
+    }
 }
 
 
