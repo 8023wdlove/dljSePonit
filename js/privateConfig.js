@@ -105,6 +105,36 @@ const privateOptions = {
             minLat: '36.7947062982130433',
         }
     },
+    // 富朗
+    'fulang': {
+        name: 'fulang',
+        coord:{
+            maxLon: '118.61456148',
+            minLon: '118.61109607',
+            maxLat: '34.89869273',
+            minLat: '34.89657150',
+        }
+    },
+    // 金郎
+    'jinlang': {
+        name: 'jinlang',
+        coord:{
+            maxLon: '118.60272557',
+            minLon: '118.60002458',
+            maxLat: '34.91739211',
+            minLat: '34.91288661',
+        }
+    },
+    // 金正大
+    'jinzhengda': {
+        name: 'jinzhengda',
+        coord:{
+            maxLon: '118.61259744',
+            minLon: '118.60271551',
+            maxLat: '34.90726182',
+            minLat: '34.89662210',
+        }
+    },
 
 
 
