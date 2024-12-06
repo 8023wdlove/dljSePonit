@@ -143,6 +143,14 @@ const privateOptions = {
             maxLat: '36.42946845',
             minLat: '36.42650536',
         }
+    },
+    'yilihuaxue': {
+        coord:{
+            maxLon: '109.98666018',
+            minLon: '109.95320499',
+            maxLat: '40.37625959',
+            minLat: '40.35680229',
+        }
     }
 }
 
