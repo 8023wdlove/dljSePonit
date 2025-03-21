@@ -119,6 +119,16 @@
             minLat: '35.7159818257607711',
         }
     },
+    // 山东中胜涂料有限公司
+    '26': {
+        name: 'zhongshengtuliao',
+        coord:{
+            maxLon: '116.436984',
+            minLon: '116.434753',
+            maxLat: '37.199497',
+            minLat: '37.197827',
+        }
+    },
     // 长信
     '27': {
         name: 'changxinhuaxue',
