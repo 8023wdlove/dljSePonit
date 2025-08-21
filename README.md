@@ -1,11 +1,6 @@
+https://221.0.112.190:18880/dljSePoint/index.html#1 外网
 
+http://192.168.0.35:18880/dljSePoint/index.html#1 内网
 
-1.公版的企业俯视图放在imgs\public 下
-
-2.定制的企业俯视图放在imgs\private 下
-
-3.逻辑上是根据数字或字符串来区分公版或定制
-
-4.图片名称与路径后缀相同，公版的按照公版id来声明
-
-5.暂时图片代码里只支持png格式的图片，坐标可以从三维处获取
+修改后
+把css、imgs、js 文件夹 及 index.html 、range.html 放入dljSepoint文件夹， 压缩即可
