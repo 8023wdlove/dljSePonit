@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/range.css">
+</head>
+<body>
+    <div class = 'container'>
+        <div class = 'imgContainer' id = 'imgContainer'>
+            <div class = 'imgandCanContainer' id = 'imgandCanContainer'  onclick="clickstart(event)">
+                <img src="./img/dezhoushihua.png" alt="">
+            </div>
+            <canvas id = "canvas" class = 'imgContainerCanvas'></canvas>
+            <div class = 'ponitContainer' id = 'ponitContainer'></div>
+        </div>
+        <div class = 'rangeBtns'>
+            <div class = 'rangeBtnItem' onclick="rangeReset()">
+                重置
+            </div>
+            <div class = 'rangeBtnItem' onclick="rangeBack()">
+                撤销
+            </div>
+            <div class = 'rangeBtnItem' onclick="rangeSubmit()">
+                确认
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="./js/jquery-2.1.3.min.js"></script>
+<script src="./js/utils.js"></script>
+<script src="./js/publicConfig.js"></script>
+<script src="./js/privateConfig.js"></script>
+<script src="./js/range.js"></script>
+</html>
